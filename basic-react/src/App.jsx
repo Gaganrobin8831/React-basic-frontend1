@@ -1,11 +1,15 @@
 
 import './App.css'
+import Menubar from './menu'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline shadow-md">
+    <>
+    <Menubar/>
+    <h1 className="text-3xl font-bold underline shadow-md mt-5">
     Hello world!
   </h1>
+  </>
   )
 }
 
