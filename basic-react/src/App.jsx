@@ -5,10 +5,10 @@ import Menubar from './menu'
 function App() {
   return (
     <>
+    
+    <div className='h-fu bg-black w-full'>
     <Menubar/>
-    <h1 className="text-3xl font-bold underline shadow-md mt-5">
-    Hello world!
-  </h1>
+    </div>
   </>
   )
 }
