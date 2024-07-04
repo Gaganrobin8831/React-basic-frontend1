@@ -1,14 +1,17 @@
 
 import './App.css'
-import Menubar from './menu'
+import Slider from './component/homeSlider'
+import Menubar from './component/menu'
 
 function App() {
   return (
     <>
     
-    <div className='h-fu bg-black w-full'>
-    <Menubar/>
-    </div>
+    
+    <header> <Menubar/> </header>
+    <Slider/>
+    
+    
   </>
   )
 }
