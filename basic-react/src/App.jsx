@@ -1,15 +1,25 @@
 
 import './App.css'
-import Slider from './component/homeSlider'
+import Home from './component/HomePage'
+
 import Menubar from './component/menu'
 
 function App() {
   return (
     <>
-    
-    
+    <section>
     <header> <Menubar/> </header>
-    <Slider/>
+    </section>
+
+    <section>
+    <Home/>
+    </section>
+    <section></section>
+    <section></section>
+    <section></section>
+    
+    
+    
     
     
   </>
