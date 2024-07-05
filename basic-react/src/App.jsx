@@ -11,9 +11,10 @@ function App() {
     <header> <Menubar/> </header>
     </section>
 
-    <section>
+    <section className='mt-24'>
     <Home/>
     </section>
+
     <section></section>
     <section></section>
     <section></section>

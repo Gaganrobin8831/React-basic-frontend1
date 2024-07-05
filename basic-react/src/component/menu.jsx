@@ -27,10 +27,10 @@ export default function Menubar() {
 
       </div>
 
-      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-blue-200 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px]'} md:opacity-100  sm:opacity-0`}>
+      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:bg-blue-200 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px]'} md:opacity-100  sm:opacity-0 `}>
         {
           Links.map((Link)=>(
-            <li key={Link.name} className='md:ml-8 text-xl md:my-0 my-7'>
+            <li key={Link.name} className='md:ml-8 text-xl md:my-0 my-7 '>
               <a href="{Link.link}" className='text-blue-950 font-bold hover:text-gray-200 duration-500'>{Link.name}</a></li>
           ))
         }
