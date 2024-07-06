@@ -7,10 +7,11 @@ import 'swiper/css';
 import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
 
+// Import your custom styles
 import './styles.css';
 
-// import required modules
-import { EffectCube, Pagination } from 'swiper/modules';
+// Import required modules
+import { EffectCube, Pagination, Autoplay } from 'swiper/modules';
 
 export default function Slider() {
   return (
@@ -25,20 +26,28 @@ export default function Slider() {
           shadowScale: 0.94,
         }}
         pagination={true}
-        modules={[EffectCube, Pagination]}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        speed={3000} // Adjust this value for smoother transition
+        modules={[EffectCube, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src="./1st.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src="./2nd.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src="./3rd.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img src="./4th.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="./5th.jpg" />
         </SwiperSlide>
       </Swiper>
     </>

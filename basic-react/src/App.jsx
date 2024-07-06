@@ -1,5 +1,6 @@
 
 import './App.css'
+import AboutPage from './component/About'
 import Home from './component/HomePage'
 
 import Menubar from './component/menu'
@@ -15,7 +16,10 @@ function App() {
     <Home/>
     </section>
 
-    <section></section>
+    <section>
+    <AboutPage/>
+    </section>
+
     <section></section>
     <section></section>
     
