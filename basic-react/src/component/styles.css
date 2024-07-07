@@ -25,8 +25,9 @@ body {
 }
 
 .swiper-slide {
-  height: 80%;
+  height: auto;
   width: 400px;
+  display: block;
   background-position: center;
   background-size: cover;
 }

@@ -11,6 +11,7 @@
     position: relative;
     width: 100%;
     height: 20rem; /* 80/16 = 5rem */
+  
   }
   
   .aboutimg {
@@ -19,7 +20,7 @@
     object-fit: cover;
     filter: brightness(80%);
     filter: contrast(80%);
-    filter: grayscale(50%);
+    filter: grayscale(90%);
   }
   
   .abouttext {
@@ -36,10 +37,8 @@
     text-align: left;
     margin-left: 2.5rem; /* Adjust as needed */
   }
-  
-  .abouttext .text-6xl {
-    margin-left: 2.5rem;
-    margin-bottom: 1.25rem;
+  .abouttext2{
+    text-shadow: 2px 2px black;
   }
   
   .abouttext .text-wrap {
