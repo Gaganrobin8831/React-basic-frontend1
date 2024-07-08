@@ -7,11 +7,12 @@ export default function AboutPage() {
       <div className="text-4xl mb-5 text-blue-950 font-extrabold">
         <u className="text-blue-950">About Us</u>
       </div>
-      <div className="image-container relative w-full h-80">
-        <img src="./3rd.jpg" className="aboutimg w-full h-full object-cover" />
-        <div className="abouttext absolute inset-0 flex flex-col justify-center items-center text-white">
+      <div className="image-container relative w-full md:h-80 sm:h-96">
+        <img src="./3rd.jpg" className="aboutimg w-full h-96 object-cover" />
+
+        <div className="abouttext absolute inset-0 md:flex-row md:justify-center md:items-center text-white sm:flex-col sm:items-center sm:justify-evenly">
           <div className="abouttext2 md:text-4xl sm:text-6xl  sm:font-extrabold md:font-extrabold font-serif md:text-blue-950 md:ml-10 mb-5">
-            About Cycle Shop
+            <div className='bg-white h-72 w-96'></div>
           </div>
           <div className="text-wrap text-lg ml-10 w-3/4">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis beatae molestias ab voluptate fuga dolorem iure et quia ullam rem impedit magnam ipsam sint vel veniam omnis obcaecati unde animi, optio, odit repellat architecto. Pariatur numquam ea sed perferendis cumque?
